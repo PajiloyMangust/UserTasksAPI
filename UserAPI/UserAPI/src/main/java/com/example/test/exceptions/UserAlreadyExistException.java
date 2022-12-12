@@ -1,0 +1,7 @@
+package com.example.test.exceptions;
+
+public class UserAlreadyExistException extends Exception {
+    public UserAlreadyExistException(String message) {
+        super(message);
+    }
+}
